@@ -39,7 +39,7 @@ public class DemoController {
             @RequestParam(value = "id", defaultValue = "0") String id
     ) {
          asyncLogic.async();
-         return "/demo";
+         return "/demo2";
     }
 
     @RequestMapping(value = "/user",method = RequestMethod.GET)
